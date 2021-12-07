@@ -49,12 +49,17 @@ padding: 200px 0 410px 0;
 
 }
 .cardsline{
+	display: flex;
+}
+.cardsline img{
+	width: 250px;
+	height: 250px;
+	
 	
 }
 .card{
 	width: 300px;
 	height: 300px;
-	padding: 15px;
 }
 .header_inner{
 	display: flex;
