@@ -104,3 +104,13 @@ a{
 	height: 800;
 	object-fit: scale-down;
 }
+
+.person{
+	width: 200;
+	heigth: 200;
+}
+
+.person img{
+	object-fit: cover;
+	
+}
