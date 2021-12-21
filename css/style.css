@@ -5,6 +5,10 @@ body {
 	line-height: 19px;
 	color: black;
 }
+a{
+	text-decoration: none;
+	
+}
 
 main{
 	display: flex;
@@ -14,12 +18,13 @@ main{
 .welcome{
 background: #000;
 text-align: center;
-padding: 200px 0 410px 0;
+height: 100vh;
 }
 .welcome h1{
 	color: aliceblue;
 	font-size: 44px;
-	padding: 40px;
+	text-align: center;
+	padding-top: 25%; 
 }
 .welcome p{
 	color: aliceblue;
@@ -29,6 +34,7 @@ padding: 200px 0 410px 0;
 .wrapper{
 	display: flex;
 	align-self: center;
+	
 }
 .wrapper h1{
 	color: #000;
@@ -37,15 +43,24 @@ padding: 200px 0 410px 0;
 	padding: 40px;
 }
 .container{
+	text-align: center;	
 	max-width: 1220px;
 	padding: 0 10px;
 	margin: 0 auto;
+
 	
 }
-.header{
-	
-	background: yellowgreen;
+.container img{
+	align-self: center;
+	max-width: 50%;
+}
 
+.header{
+	position: fixed;
+	z-index: 100;
+	align-self: center;
+	background: yellowgreen;
+	width: 100%;
 
 }
 .cardsline{
@@ -55,14 +70,15 @@ padding: 200px 0 410px 0;
 	object-fit: cover;
 	width: 250px;
 	height: 250px;
-	
-	
 }
 .card{
 	width: 300px;
 	height: 300px;
 	text-align: center;
-	display: grid;
+	
+}
+.card p{
+	padding: 0 50px 0 50px;
 }
 .header_inner{
 	display: flex;
@@ -95,23 +111,21 @@ padding: 200px 0 410px 0;
 .menu_list-link:hover{
 	border-bottom: 1px solid white;
 }
-a{
-	text-decoration: none;
-}
 
-.art{ 
-	width: 800px;
-	height: 800px;
-	object-fit: scale-down;
-}
+
+
 .category{
-	display: inline-flexbox;
+	display: flex;
 }
 .person{
-	width: 150px;
-	height: 150px;
+	width: 100px;
+	height: 100px;
 }
 
 .person img{
 	object-fit: cover;
+	width: 150px;
+	height: 150px;
+
+	
 }
