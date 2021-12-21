@@ -46,7 +46,6 @@ padding: 200px 0 410px 0;
 	
 	background: yellowgreen;
 
-	
 
 }
 .cardsline{
@@ -97,4 +96,10 @@ padding: 200px 0 410px 0;
 }
 a{
 	text-decoration: none;
+}
+
+.art{ 
+	width: 800;
+	height: 800;
+	object-fit: scale-down;
 }
