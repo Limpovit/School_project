@@ -104,7 +104,9 @@ a{
 	height: 800px;
 	object-fit: scale-down;
 }
-
+.category{
+	display: grid;
+}
 .person{
 	width: 150px;
 	height: 150px;
