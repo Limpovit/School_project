@@ -100,17 +100,16 @@ a{
 }
 
 .art{ 
-	width: 800;
-	height: 800;
+	width: 800px;
+	height: 800px;
 	object-fit: scale-down;
 }
 
 .person{
-	width: 200;
-	heigth: 200;
+	width: 50%;
+	height: 80%;
 }
 
 .person img{
 	object-fit: cover;
-	
 }
