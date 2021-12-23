@@ -72,7 +72,7 @@ height: 100vh;
 	font-size: 24px;
 line-height: 30px;
 }
-.container img{
+.art img{
 	align-self: center;
 	max-width: 50%;
 }
@@ -100,7 +100,7 @@ line-height: 30px;
 	
 }
 .card p{
-	padding: 0 50px 0 50px;
+	text-align: center;
 }
 .header_inner{
 	display: flex;
@@ -137,7 +137,7 @@ line-height: 30px;
 
 
 .category{
-	display: flex;
+	display: flexbox;
 }
 .person{
 	
@@ -152,4 +152,7 @@ line-height: 30px;
 	height: 250px;
 
 	
+}
+.team{
+	padding: 100px 100px 100px 100px;
 }
