@@ -72,10 +72,13 @@ height: 100vh;
 	font-size: 24px;
 line-height: 30px;
 }
-.art img{
+.art{ 	
 	align-self: center;
 	max-width: 50%;
+	padding-top: 10%;
 }
+
+
 
 .header{
 	position: fixed;
@@ -87,17 +90,19 @@ line-height: 30px;
 }
 .cardsline{
 	display: flex;
+	object-position: center;
 }
-.cardsline img{
-	object-fit: cover;
-	width: 250px;
-	height: 250px;
-}
+
 .card{
 	width: 300px;
 	height: 300px;
 	text-align: center;
 	
+}
+.card img{
+	object-fit: cover	;
+	width: 250px;
+	height: 250px;
 }
 .card p{
 	text-align: center;
